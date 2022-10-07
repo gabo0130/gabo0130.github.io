@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Registro
+    </title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://kit.fontawesome.com/25eb3da1d7.js" crossorigin="anonymous"></script>
+
+</head>  
+<body>
+ <form class="formulario">
+   
+    <h1>Registrarse</h1>
+     <div class="contenedor">
+     
+     <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text"required placeholder="Nombre Completo">
+         
+         </div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text"  list="drawfemails"  placeholder="Cargo"required> 
+         <datalist id="drawfemails">
+            <option >Cargo</option>
+            <option >Cargo1</option>
+            <option>Cargo2</option>
+            <option >Cargo3</option>
+            <option >Cargo4</option>
+            <option>Cargo5</option>
+            <option >Cargo6</option>
+          </datalist>
+          
+         
+         </div>
+         <div class="input-contenedor">
+            <i class="fas fa-user icon"></i>
+            <input type="number"  min="0" placeholder="Edad"required>
+             </div>
+             <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="number"  min="0" placeholder="Peso" step="0.01"required>
+                 </div>
+         <div class="input-contenedor">
+            <i class="fas fa-user icon"></i>
+            <input type="number"  min="0" placeholder="Estatura"required>
+             </div>
+         
+
+         <input type="submit" value="Registrarse" class="button"required>
+         <p>¿Ya tienes una cuenta?<a class="link" href="inicio.html"> Iniciar Sesion</a></br> <a class="link" href="index.html">Inicio </a></p>
+     </div>
+    </form>
+</body>
+</html>
